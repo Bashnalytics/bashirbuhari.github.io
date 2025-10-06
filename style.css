@@ -36,6 +36,14 @@ header {
     text-align: center;
     flex-direction: column;
 }
+header {
+  background: linear-gradient(
+      rgba(10, 25, 47, 0.8),
+      rgba(10, 25, 47, 0.8)
+    ),
+    url("https://raw.githubusercontent.com/Bashnalytics/bashirbuhari.github.io/main/data-flow.png")
+    center/cover no-repeat;
+}
 
 header h1 {
     font-size: 3rem;
