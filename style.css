@@ -28,8 +28,15 @@ a {
 /* Hero */
 header {
   background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)),
-    url("https://github.com/Bashnalytics/bashirbuhari.github.io/blob/main/image.png")
-    center/cover no-repeat;
+      url("profile.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+;
   color: #fff;
   text-align: center;
   padding: 150px 20px;
